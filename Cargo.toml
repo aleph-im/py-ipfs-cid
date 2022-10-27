@@ -9,4 +9,5 @@ name = "py_ipfs_cid"
 crate-type = ["cdylib"]
 
 [dependencies]
+ipfs-unixfs = "0.2.0"
 pyo3 = { version = "0.17.1", features = ["extension-module"] }

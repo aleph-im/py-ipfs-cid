@@ -14,6 +14,5 @@ cid: str = compute_cid(b"1234")  # Returns QmTPqcLhVnCtjoYuCZwPzfXcFrUviiPComTep
 
 ## Current limitations
 
-* Only supports CID v0
 * Only supports files, not directories
 * Only supports the default IPFS block size (256 KiB)
